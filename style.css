@@ -1,0 +1,80 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+   background: url(grass2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.btn-primary{
+	background-color: green;
+	border: green;
+	padding: 10px;
+	border-radius: 300px;
+	position: relative;
+  	bottom: 10px;
+}
+
+
+
+.btn-primary:hover{
+	background-color: #116000;
+	padding: 15px; 
+}
+
+hr{
+	border-color: green;
+	border-width: 3px;
+	max-width: 100px;
+}
+
+.buffer{
+	height: 140px;
+}
+
+.typewriter {
+  color: black;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .30em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
